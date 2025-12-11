@@ -7,6 +7,10 @@
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+
+        #main-menu a:hover{
+            color: #FFD700
+        }
         /* Custom styles for a polished, dark look */
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap');
         
@@ -62,7 +66,7 @@
                 <img src="logo.png" style="width: 100px; height:auto;" alt="">
                 <a href="#" id="renk" class="ali-via">ALi ViA</a>
             </div>
-            <nav class="hidden md:flex space-x-8">
+            <nav id="main-menu" class="hidden md:flex space-x-8">
                 <a href="#hizmetler" class="text-gray-300 hover:text-accent transition duration-300">Hizmetler</a>
                 <a href="#galeri" class="text-gray-300 hover:text-accent transition duration-300">Galeri</a>
                 <a href="#hakkimizda" class="text-gray-300 hover:text-accent transition duration-300">Hakkımızda</a>
