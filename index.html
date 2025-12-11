@@ -161,7 +161,8 @@
     
     <div class="video-div" style=" text-align: center">
         <h1  style="background-color: #FFD700; font-size: 20px; font-weight: bold; border-radius: 10px; margin: 10px; font-family: Georgia, 'Times New Roman', Times, serif ; box-shadow: 0 0 10px rgba(234, 255, 0, 0.5);"> Sanat Eserimiz</h1>
-        <!-- <video  class="tiras-video" src="tras_video.mp4" controls loop></video> -->
+    <video style="padding:20px; box-shadow: 0 0 10px goldenrod;" class="tiras-video" src="tras_video.mp4" playsinline autoplay muted  loop></video>
+
         <img src="" alt="">
     </div>
     <!-- Gallery Section -->
@@ -286,8 +287,7 @@
     </footer>
 
     <script>
-        const videoElement = document.getElementsByClassName("tiras-video")
-        videoElement.volume = 0.0
+
         // JavaScript for Mobile Menu Toggle
         document.getElementById('mobile-menu-button').addEventListener('click', function() {
             const menu = document.getElementById('mobile-menu');
